@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>MvpActionapp</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+     <!-- Header -->
+     <%= render "layouts/shared/header" %>
+     
+      <!-- Favicon-->
+    <%= favicon_link_tag asset_path('ActionIco.jpg') %>
+
+    <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+    <%= javascript_include_tag "application", "data-turbo-track": "reload", defer: true %>
+  </head>
+
+  <body class="bg-gray-100">
+    <%= yield %>
+
+     <!-- Footer -->
+     <%= render "layouts/shared/footer" %>
+  </body>
+</html>
