@@ -48,9 +48,10 @@ gem "bootsnap", require: false
 
 ###### PROJET's GEMS #### 
 gem 'friendly_id', '~> 5.4', '>= 5.4.2'
-gem 'simple_form', '~> 5.1'
+#gem 'simple_form', '~> 5.1'
 #gem 'country_select'
-
+gem 'jquery-rails', '~> 4.4'
+gem 'bootstrap', '~> 5.1', '>= 5.1.3'
 
 # Use Sass to process CSS
  gem "sassc-rails"
